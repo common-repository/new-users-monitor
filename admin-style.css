@@ -1,0 +1,43 @@
+﻿/*
+ * WPGear. New Users Monitor
+ * admin-style.css
+ */
+#num_newuser_widget {
+	padding-right: 10px;
+}
+#num_newuser_widget div {
+	overflow-x: auto;
+}
+#num_newuser_widget div td {
+	white-space: nowrap;
+	padding-right: 5px;
+}
+.num_dashboard_widget_header {
+	font-size: inherit !important;
+    font-weight: inherit !important;
+}
+.num_addnew_box {
+	border-left: 4px solid #ffba00;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    background: aliceblue;
+    padding: 10px;
+	margin-bottom: 20px;	
+}
+
+.new-users-monitoroptions td {
+	color: red;
+}
+th.column-controls {
+	width: 100px;
+}
+.num_column_controls_row {
+	text-align: right;
+	margin-right: 15px;
+}
+.num_warning {
+	border-left: 4px solid #ffba00;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    background: aliceblue;
+    padding: 20px;
+	margin-bottom: 10px;	
+}
